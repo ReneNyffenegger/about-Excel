@@ -1,4 +1,5 @@
 global lastHighligtedRow as long
+
 sub highlightRowOfSelectedCell()
 
     if lastHighligtedRow > 0 Then
