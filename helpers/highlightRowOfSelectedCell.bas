@@ -1,12 +1,12 @@
-global lastHighligtedRow as long
+global lastHighlightedRow as long
 
 sub highlightRowOfSelectedCell()
 
-    if lastHighligtedRow > 0 Then
-       rows(lastHighligtedRow).Interior.ColorIndex = 0 ' no fill?
+    if lastHighlightedRow > 0 Then
+       rows(lastHighlightedRow).Interior.ColorIndex = 0 ' no fill?
     end if
 
     rows(selection.Row).interior.color = rgb(230, 230, 230)
-    lastHighligtedRow = selection.Row
+    lastHighlightedRow = selection.Row
 
 end sub
