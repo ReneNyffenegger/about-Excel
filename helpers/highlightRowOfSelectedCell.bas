@@ -6,7 +6,7 @@ sub highlightRowOfSelectedCell()
        rows(lastHighlightedRow).Interior.ColorIndex = 0 ' no fill?
     end if
 
-    rows(selection.Row).interior.color = rgb(230, 230, 230)
-    lastHighlightedRow = selection.Row
+    rows(selection.row).interior.color = rgb(230, 230, 230)
+    lastHighlightedRow = selection.row
 
 end sub
