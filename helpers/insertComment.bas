@@ -1,5 +1,6 @@
 '
-'  application.onKey "%c", "insertComment"
+'  Assign Alt-C to the macro:
+'     application.onKey "%c", "insertComment"
 '
 sub insertComment() ' {
 
