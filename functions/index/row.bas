@@ -10,7 +10,7 @@ end sub ' }
 sub testData() ' {
 
  '
- '  Cleare active sheet's data:
+ '  Clear active sheet's data:
  '
     activeSheet.usedRange.clearContents
 
